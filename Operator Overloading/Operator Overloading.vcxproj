@@ -146,6 +146,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DataStructure.h" />
+    <ClInclude Include="Fraction.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="Vector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataStructure.cpp" />
+    <ClCompile Include="Fraction.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
